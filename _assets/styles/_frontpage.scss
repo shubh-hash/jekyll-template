@@ -1,74 +1,78 @@
-.Layer-0 {
-  width: 1919px;
-  height: 7764px;
+.main-box {
+  width: 100vw;
   }
 
-.Layer-16 {
-  width: 1919px;
-  height: 1079px;
-  object-fit: contain;
+.intro-box {
+  width: 100vw;
+  height: 100vh;
   background-image: url(../img/banner.jpg);
   max-width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
   }
 
 .Group-14 {
-  width: 740px;
-  height: 1284px;
+  width: 50vw;
+  height: 100vh;
   object-fit: contain;
   }
 
-.shutterstock_251616610 {
-  width: 1919px;
-  height: 369px;
+.stats-box {
+  width: 100vw;
+  height: 100vh;
   object-fit: contain;
+  background-image: url(../img/insights_bg.jpg);
   max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
   }
 
-.Rectangle-4 {
-  width: 1919px;
-  height: 913.9px;
+.user-experience-box {
+  width: 100vw;
+  height: 100vh;
   background-color: #273140;
   max-width: 100%;
   }
 
-.Rectangle-15 {
-  width: 1919px;
-  height: 900px;
+.pricing-box {
+  width: 100vw;
+  height: 100vh;
   background-color: #273140;
   max-width: 100%;
   }
 
-.Rectangle-1-copy-6 {
-  width: 1919px;
-  height: 704px;
+.query-box {
+  width: 100vw;
+  height: 100vh;
   background-color: #212a38;
   max-width: 100%;
   }
 
-.Rectangle-13 {
-  width: 1918.6px;
-  height: 87px;
+.social-media-box {
+  width: 100vw;
+  height: 100vh;
   background-color: #2c3748;
   max-width: 100%;
   }
 
-.Rectangle-7 {
-  width: 1919px;
-  height: 416.5px;
+.site-map {
+  width: 100vw;
+  height: 100vh;
   background-color: #212a37;
   max-width: 100%;
   }
 
-.Rectangle-11 {
-  width: 1918.6px;
-  height: 69.3px;
+.copyright-box {
+  width: 100vw;
+  height: 69.3vh;
   background-color: #1d2531;
   max-width: 100%;
   }
 
-.Copyright-2016-MoM {
-  width: 214px;
-  height: 17px;
+.copyright {
+  width: 100vw;
+  height: 17vh;
   font-family: ProximaNova;
   font-size: 18px;
   font-weight: normal;
@@ -79,4 +83,3 @@
   text-align: center;
   color: #3e4959;
 }
-

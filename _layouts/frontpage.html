@@ -4,24 +4,25 @@
 ---
 <!DOCTYPE html>
 <html>
-	{% include head.html title=page.title %}
+  {% include head.html title=page.title %}
 <head>
-	<title>MoM</title>
+  <title>MoM</title>
 </head>
 <body>
-	<div class="container Layer-0">
-		<section class="Layer-16"></section>
-		<section class="shutterstock_251616610"></section>
-		<section class="Rectangle-4"></section>
-		<section class="Rectangle-15"></section>
-		<section class="Rectangle-1-copy-6"></section>
-		<section class="Rectangle-13"></section>
-		<section class="Rectangle-7"></section>
-		<section class="Rectangle-11">
-			<div class="Copyright-2016-MoM">
-				Copyright 2016, MoM
-			</div>
-		</section>
-	</div>
+  <div class="container main-box">
+    {% include header.html %}
+    <section class="intro-box"></section>
+    <section class="stats-box"></section>
+    <section class="user-experience-box"></section>
+    <section class="pricing-box"></section>
+    <section class="query-box"></section>
+    <section class="social-media-box"></section>
+    <section class="site-map"></section>
+    <section class="copyright-box">
+      <div class="copyright">
+        Copyright 2016, MoM
+      </div>
+    </section>
+  </div>
 </body>
 </html>
