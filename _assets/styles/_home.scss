@@ -1,27 +1,72 @@
-h1 {
-  font-family: Roboto;
-  text-align: center;
-}
-
-.block {
-  background-color: $grey-lighter-color;
-  border: 1px $border-color solid;
-  box-shadow: 0 2px 5px $black-light-color;
-  text-align: justify;
-}
-
-.mom-header {
+.main-box {
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
-  padding: 0 15px;
-
-  .header-text {
-    align-self: center;
-    font-size: 1.4em;
-    font-weight: 900;
+  flex-direction: column;
   }
+
+.intro-box {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  max-width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.Group-14 {
+  width: 50vw;
+  height: 100vh;
+  object-fit: contain;
+  }
+
+.stats-box {
+  width: 100vw;
+  height: 50vh;
+  object-fit: contain;
+  background-image: url(../img/insights_bg.jpg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.user-experience-box {
+  width: 100vw;
+  height: 100vh;
+  background-color: #273140;
+  max-width: 100%;
+  }
+
+.pricing-box {
+  width: 100vw;
+  height: 100vh;
+  background-color: #273140;
+  max-width: 100%;
+  }
+
+.flex-container-quer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.middle {
+.query-box-heading {
+  width: 293px;
+  height: 45px;
+  font-family: Roboto;
+  font-size: 57.2px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
+  color: #ffffff;
 }
+
+.query-box {
+  width: 100vw;
+  height: 80vh;
+  background-color: #212a38;
+  max-width: 100%;
+  }

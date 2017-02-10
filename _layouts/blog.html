@@ -1,0 +1,20 @@
+--- 
+# 3 dashes above and below are needed 
+# so that jekyll can process the files 
+---
+<!DOCTYPE html>
+<html lang="en-gb">
+  {% include head.html title=page.title %}
+<head>
+  <title>MoM</title>
+</head>
+<body>
+  <div class="container main-box">
+    <section class="tagline"></section>
+    <section class="posts"></section>
+    {% include socialMedia.html %}
+    {% include sitemap.html %}
+    {% include footer.html %}
+  </div>
+</body>
+</html>

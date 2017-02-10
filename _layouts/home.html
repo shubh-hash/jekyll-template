@@ -4,16 +4,34 @@
 ---
 <!DOCTYPE html>
 <html lang="en-gb">
-{% include head.html title=page.title %}
-
+  {% include head.html title=page.title %}
+<head>
+  <title>MoM</title>
+</head>
 <body>
-  {% include header.html %}
-  <div class="container">
-    <section class="middle">
-      <h1 class="display-5">{{ page.headline }}</h1>
-      <h2 class="display-8">{{ page.second-headline }}</h2>
+  <div class="container main-box">
+    {% include header.html %}
+    <section class="intro-box"></section>
+    <section class="stats-box"></section>
+    <section class="user-experience-box"></section>
+    <section class="pricing-box"></section>
+    <section class="query-box">
+      <div class="flex-container-query-fields">   
+      <div class="query-box-heading">Get in touch</div>
+        <div class="flex-item name">
+          <input type="name" placeholder="Enter Your Name">
+        </div>
+        <div class="flex-item email">
+          <input type="name" placeholder="Enter Your Email">
+        </div>
+        <div class="flex-item message">
+          <input type="name" placeholder="Enter Your Message">
+        </div>
+      </div>
     </section>
+    {% include socialMedia.html %}
+    {% include sitemap.html %}
+    {% include footer.html %}
   </div>
-  {% include footer.html %}
 </body>
 </html>
