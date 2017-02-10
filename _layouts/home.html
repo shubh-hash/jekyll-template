@@ -10,8 +10,22 @@
 </head>
 <body>
   <div class="container main-box">
-    {% include header.html %}
-    <section class="intro-box"></section>
+    <section class="intro-box">
+      {% include header.html %}
+      <div class="main-heading">
+        {{ page.headline }}
+      </div>
+      <div class="sub-heading">
+        {{ page.second-headline}}
+      </div>
+      <div class="free-trial-box">
+        <button>Take 30 day free trial</button>
+      </div>
+      <div class="sub-heading-2">Excellent for recurring corporate meeting minutes.</div>
+      <div class="demo-image">
+        <img src="../img/mock_01.png">
+      </div>
+    </section>
     <section class="stats-box"></section>
     <section class="user-experience-box"></section>
     <section class="pricing-box"></section>
