@@ -28,9 +28,8 @@ s3_endpoint: us-east-1
 cloudfront_wildcard_invalidation: true
 
 redirects:
-  about.html: /about
-  frontpage.html: /frontpage
-  blog.html: /blog
-  login.html: /login
-  signup.html: /signup
+  about.html: /about/
+  blog.html: /blog/
+  login.html: /login/
+  signup.html: /signup/
 
