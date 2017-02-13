@@ -394,5 +394,12 @@ body {
       flex-direction: column;
       align-items: center;
       width: 100vw;
+      img {
+        margin-left: 0;
+      }
+    }
+    .stats-box {
+      display: flex;
+      flex-flow: wrap;
     }
   }
