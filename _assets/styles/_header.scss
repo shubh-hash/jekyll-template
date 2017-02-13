@@ -43,15 +43,6 @@
   color: $white;
 }
 
-@media only screen and (max-width: 768px) {
-  .fast-options {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
-}
-
 .flex-item a{
   width: 63px;
   height: 21px;
@@ -84,4 +75,11 @@
   }
 }
 
-
+@media only screen and (max-width: 768px) {
+  .fast-options {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
