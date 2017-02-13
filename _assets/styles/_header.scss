@@ -83,6 +83,7 @@
   left: 0;
   position: fixed; 
   z-index: 1;
+  overflow: hidden;
   margin-left: 0px;
   background-color: red;
   flex-direction: column;
@@ -90,18 +91,22 @@
   align-items: center;
   justify-content: space-around;
   a {
-
-  text-decoration: none;
-  font-family: Roboto;
-  font-size: 21px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
   }
+}
+
+.close-menu {
+  display: flex;
+  justify-content: flex-end;
 }
 
 @media only screen and (max-width: 768px) {
