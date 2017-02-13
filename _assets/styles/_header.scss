@@ -75,6 +75,18 @@
   }
 }
 
+.menu-options {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute; 
+  z-index: 1;
+}
+
+.show {
+  display: block;
+}
+
 @media only screen and (max-width: 768px) {
   .fast-options {
     display: none;
