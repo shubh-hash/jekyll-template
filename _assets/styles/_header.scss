@@ -87,7 +87,6 @@
   margin-left: 0px;
   background-color: $sitemap-background-color;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   justify-content: space-around;
   a {
@@ -100,7 +99,7 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff;
+    color: $white;
   }
 }
 
