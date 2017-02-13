@@ -20,6 +20,10 @@
   }
 }
 
+.hamburger {
+  display: none;
+}
+
 .fast-options {
   display: -webkit-box;
   display: -moz-box;
@@ -37,6 +41,15 @@
   letter-spacing: normal;
   text-align: left;
   color: $white;
+}
+
+@media only screen and (max-width: 768px) {
+  .fast-options {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }
 
 .flex-item a{

@@ -1,8 +1,10 @@
+.backgroung-fix-contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .social-media-box {
-  width: 100vw;
-  height: 10vh;
   background-color: #2c3748;
-  max-width: 100%;
 }
 
 .flex-container {
@@ -30,24 +32,20 @@
 
 .facebook {
   background-image: url(/img/Social_png/facebook.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  @extend .backgroung-fix-contain;
 }
 
 .twitter {
   background-image: url(/img/Social_png/twitter.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  @extend .backgroung-fix-contain;
 }
 
 .linkedin {
   background-image: url(/img/Social_png/linkdin.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  @extend .backgroung-fix-contain;
 }
 
 .google {
   background-image: url(/img/Social_png/google.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  @extend .backgroung-fix-contain;
 }

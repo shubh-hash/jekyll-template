@@ -13,6 +13,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.background-fix-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;  
@@ -29,8 +34,7 @@ body {
   background-image: url(/img/banner.jpg);
   max-width: 100%;
   object-fit: contain;
-  background-repeat: no-repeat;
-  background-size: cover;
+  @extend .background-fix-cover;
   }
 
 .main-heading {
@@ -220,8 +224,7 @@ body {
   object-fit: contain;
   background-image: url(/img/insights_bg.jpg);
   max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  @extend .background-fix-cover;
   @extend .font-style;
   font-size: 30px;
   font-weight: 100;
@@ -304,8 +307,8 @@ body {
   margin-top: 5%;
   height: 0.8px;
   opacity: 0.1;
-  background-color: #ffffff;
-  border: solid 0.8px #ffffff;
+  background-color: $white;
+  border: solid 0.8px $white;
 }
 
 .dont-take-words {
@@ -328,6 +331,34 @@ body {
 .pricing-heading {
   @extend .flex-center;
   margin-top: 5%;
+  @extend .font-style;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  color: $white;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+.individual {
+  width: 313.1px;
+  height: 523.9px;
+  border-radius: 9px;
+  background-color: $plan-background-color;
+}
+
+.enterprise {
+  width: 313.1px;
+  height: 523.9px;
+  border-radius: 9px;
+  background-color: $plan-background-color;
 }
 
 .flex-container-quer-box {
