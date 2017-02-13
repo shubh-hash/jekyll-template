@@ -1,6 +1,6 @@
 ---
 layout: home
-title: myMeetingNotes
+title: MoM | Meetings Notes Made Easy
 description: This is root point of my webpage
 permalink: /
 headline: Meeting Notes Made Easy
